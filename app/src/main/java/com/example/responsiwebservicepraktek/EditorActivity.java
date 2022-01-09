@@ -43,9 +43,9 @@ public class EditorActivity extends AppCompatActivity {
             public void onClick(View view) {
                 try {
                     if (id == null || id.equals("")){
-
+                        save();
                     }else {
-
+                        edit();
                     }
 
                 }catch(Exception e){
